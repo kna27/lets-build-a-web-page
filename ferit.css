@@ -1,0 +1,13 @@
+body {
+    background-image: url("img/turkey.jpg");
+    background-size: 50%;
+    background-repeat: repeat;
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    
+}

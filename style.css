@@ -33,3 +33,20 @@ img {
 .caterpillar:hover {
     transform: scale(1.5) rotate(360deg);
 }
+
+.mainHeading {
+    color: #f9e9ec;
+    padding: 0 0 0.5em 0;
+    border-bottom: 1px solid #fac748;
+    width: fit-content;
+    margin: 0 auto;
+    text-shadow: 0 0 10px #8390fa;
+}
+
+.darkBackground {
+    background-color: rgba(125, 125, 125, 0.4);
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    
+}
