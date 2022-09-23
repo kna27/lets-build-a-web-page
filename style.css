@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background: linear-gradient(-45deg, #1D2F6F, #8390fa, #fac748, #f9e9ec, #f88dad);
+    background-size: 700% 700%;
+    animation: bg 20s ease infinite;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@keyframes bg {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 80% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.caterpillar {
+    transition: transform .2s;
+    margin: 2vw auto;
+}
+
+.caterpillar:hover {
+    transform: scale(1.5) rotate(360deg);
+}
