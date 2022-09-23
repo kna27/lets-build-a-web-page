@@ -11,6 +11,22 @@ img {
     max-height: 100%;
 }
 
+h1 {
+    font-size: 2.5em;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: underline;
+}
+
 @keyframes bg {
     0% {
         background-position: 0% 50%;
@@ -49,4 +65,8 @@ img {
     width: fit-content;
     margin: 0 auto;
     
+}
+.redText {
+    color: white;
+    background-color: #e40000;
 }
