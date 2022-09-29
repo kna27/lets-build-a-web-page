@@ -11,19 +11,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
     <title>Ferit!</title>
 </head>
 
 <body>
     <div class="main">
         <h1 class="mainHeading">Ferit</h1>
-        <b>Enable autoplay and turn up your volume for a surprise!</b>
+        <button id="nationalAnthem" class="turkishButton spin" onclick="playNationalAnthem()">Play National Anthem</button>
+        <br>
+        <b id="counter">National Anthems Playing: 0</b>
         <p>Ferit is a person I care about a lot.</p>
         <p>His full name is <em>Ferit Etka Bayrakdar</em></p>
         <p>Ferit is <span class="redText">Turkish</span></p>
         <p>He is in the ABF academy</p>
         <h2>Videos and Images of Ferit</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/4lNH0s0nxDU" title="YouTube video player"
+        <iframe class="spin" width="560" height="315" src="https://www.youtube.com/embed/4lNH0s0nxDU" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
@@ -31,12 +34,11 @@
         <a target="_blank" href="https://www.youtube.com/watch?v=4lNH0s0nxDU">Here is a link to the video above on
             YouTube.</a>
         <br>
-        <img src="img/ferit-bayrakdar.gif" width="300px">
+        <img src="img/ferit-bayrakdar.gif" class="spin" width="300px">
         <p>This is a GIF of Ferit being <strong>very</strong> expressive. I wonder what he is thinking about.</p>
         <p>Ferit's Discord is <code>fey#6259</code>.</p>
         <a href="index.html">Go back home</a>
     </div>
-    <audio src="aud/turkish_national_anthem.mp3" autoplay loop></audio>
 </body>
 
 </html>
