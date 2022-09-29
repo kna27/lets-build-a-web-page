@@ -11,6 +11,22 @@ img {
     max-height: 100%;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li:before {
+    content: '';
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    position: relative;
+    height: 6px;
+    width: 6px;
+    border-radius: 6px;
+    margin-right: 4px;
+    top: -1px;
+}
+
 h1 {
     font-size: 2.5em;
 }
@@ -64,8 +80,9 @@ a {
     border-radius: 10px;
     width: fit-content;
     margin: 0 auto;
-    
+
 }
+
 .redText {
     color: white;
     background-color: #e40000;
